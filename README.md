@@ -35,21 +35,21 @@ The root project contains:
 
 ## Instruction on how to run the project:
 
- 1. To run the whole project in a single command line :  
+*  To run the whole project in a single command line :  
 
 >> ant execute.evaluation
 
- 2. If you want to run each function, run below command first: 
+*  If you want to run each function, run below command first: 
 
 >> ant compile 
 
- 3. To  run Un-Marshalling/ function : 
+*  To  run Un-Marshalling/ function : 
 
 >> ant execute.JAXBMarshaller 
 
- 4. To run the  Unmarshalling function : 
+*  To run the  Unmarshalling function : 
 
 >> ant execute.JAXBUnMarshaller 
 
- 5. To run the  JSON marshalling  function : 
+* To run the  JSON marshalling  function : 
 >>  ant execute.JSONMarshaller 
