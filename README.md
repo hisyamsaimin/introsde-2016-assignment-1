@@ -17,12 +17,18 @@ In the project you will find a java package called model which contains the belo
 >>> - print the list of all people
 >>> - print the person health profile with id 0005
 >>> - print the list of people with weight > 80kg
+
 >> 2 JAXBMarshaller.java will use the JAXB marshalling function of which will  create 3 new persons healhprofile into the newly generated people1.xml
+
 >> 3 JAXBUnMarshaller.java will use the JAXB unmarshallig function to unmarshal the content of people.xml and convert them into java objects
+
 >> 4 JSONMarshaller.java  will create 3 new people in java and marshal them into generated JSON
 
 The root project contains:
 >>1 ivy.xml file of dependency manager with specified dependencies, helps to manage the dependencies.
+
 >>2 build.xml - the file contains JAXB XJC which will generate necessary java classes for marshalling, compiles and runs the project according to the assigment requirements.
+
 >>3 people.xml is the file which contains the list of 20 people with their respective healhprofiles
+
 >>4 people.xsd - XML schema for people.xml, is used in build.xml for generation of the java objects for marshalling.
